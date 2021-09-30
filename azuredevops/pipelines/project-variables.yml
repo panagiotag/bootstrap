@@ -14,10 +14,10 @@ variables:
 # Github Variables
     # Org name of the github org
   - name: GITHUB-ORG-NAME
-    value: ai-factory-azure
+    value: panagiotag
     # Org URL for the github org where the github project is / will be hosted
   - name: GITHUB-ORG-URL
-    value: https://github.com/ai-factory-azure
+    value: https://github.com/panagiotag
     # Name for the Github Service connection endpoint
   - name: GITHUB-SERVICE-ENDPOINT-NAME
     value: Github-Service-Endpoint
@@ -27,7 +27,7 @@ variables:
     # for realtime & tabular, choose https://github.com/ai-factory-azure/project-template-tabular-realtime-code
     # for realtime & batch, choose https://github.com/ai-factory-azure/project-template-file-realtime-code
   - name: CODE-TEMPLATE
-    value: https://github.com/ai-factory-azure/project-template-file-batch-code
+    value: https://github.com/panagiotag/project-template-file-batch-code
 
     # URL for the controller template
     # for batch & tabular, choose https://github.com/ai-factory-azure/project-template-tabular-batch-controller
@@ -35,7 +35,7 @@ variables:
     # for realtime & tabular, choose https://github.com/ai-factory-azure/project-template-tabular-realtime-controller
     # for realtime & batch, choose https://github.com/ai-factory-azure/project-template-file-realtime-controller
   - name: CONTROLLER-TEMPLATE
-    value: https://github.com/ai-factory-azure/project-template-file-batch-controller
+    value: https://github.com/panagiotag/project-template-file-batch-controller
 # Pipeline variables
     # Name for the Infrastructure as Code pipeline
   - name: IAC-PIPELINE-NAME
@@ -45,7 +45,7 @@ variables:
     value: Pipeline for MNIST Project
     # Repository url for the IAC repo
   - name: IAC-TEMPLATE
-    value:  https://github.com/ai-factory-azure/templates-iac 
+    value:  https://github.com/panagiotag/templates-iac 
     # IAC Branch for creating the pipeline
   - name: IAC-BRANCH
     value:  main    
